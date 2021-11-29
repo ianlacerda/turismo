@@ -1,0 +1,82 @@
+body{
+    /* display: grid; */
+    /* align-content: center; */
+    /* align-self: center; */
+    /* justify-content: space-between; */
+    /* background-color: red; */
+    background-color: #884444;
+}
+
+body div{
+    display: block;
+}
+
+a{
+    display: inline-flex;
+    /* align-content: center;
+    align-self: center; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    color: white;
+    font-size: 2.4vw;
+    /* margin-bottom: .2em; */
+    /* bottom: 1em; */
+    padding: 1em;
+    text-underline-offset: 4px;
+    text-decoration-color: #CC4444;
+    transition: all ease-in-out 400ms;
+}
+
+
+h1{
+    /* display: inline-flex; */
+    /* align-content: center;
+    align-self: center; */
+    margin-left: auto;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    color: #FF9999;
+    font-size: 4.2vw;
+    /* margin-bottom: .2em; */
+    /* bottom: 1em; */
+    /* padding: 1em; */
+    /* text-underline-offset: 4px;
+    text-decoration-color: #CC4444; */
+    transition: all ease-in-out 400ms;
+}
+
+body img:nth-child(n){
+    display: inline-flex;
+    float: left;
+    padding: 2em;
+    width: 44%;
+    height: 600px;
+    object-fit: cover;
+}
+
+ .segunda{
+    display: inline-flex;
+    float: right !important;
+    padding: 2em;
+    width: 64%;
+}
+
+body p{
+    padding: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 2.4em;
+    font-size: 22px;
+    line-height: 1.85rem;
+    color: white;
+    font-weight: 300;
+
+}
+
+a:hover{
+    color: #FF8888;
+    /* font-size: 2vw; */
+    padding: 1em;
+    text-underline-offset: 4px;
+    text-decoration-color: white;
+}
